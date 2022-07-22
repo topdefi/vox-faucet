@@ -1,0 +1,21 @@
+{
+  "name": "vox-faucet",
+  "repository": "https://github.com/topdefi/vox-faucet",
+  "env": {
+    "WEB3_PROVIDER": {
+      "description": "JSON-RPC endpoint uri to an Ethereum node",
+      "value": "http://127.0.0.1:8545"
+    },
+    "PRIVATE_KEY": {
+      "description": "Private key hex string of the funding account"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/go"
+    }
+  ]
+}
