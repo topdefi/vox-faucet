@@ -68,7 +68,7 @@
               <span class="navbar-item">
                 <a
                   class="button is-white is-outlined"
-                  href="https://github.com/magnavox/magnavox/"
+                  href="https://github.com/RetroKidsLab/Magnavox/"
                 >
                   <span class="icon">
                     <i class="fa fa-github" />
